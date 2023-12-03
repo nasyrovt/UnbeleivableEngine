@@ -1,0 +1,9 @@
+{
+  "name" : "engine",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "4cac260c4b7331538d31886f57739fea0bffa27e",
+  "dependencies" : [ {
+    "name" : "luabridge3",
+    "version>=" : "3.0-rc3"
+  } ]
+}

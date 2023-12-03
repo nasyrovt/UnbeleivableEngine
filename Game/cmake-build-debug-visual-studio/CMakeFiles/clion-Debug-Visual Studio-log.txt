@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -DCMAKE_TOOLCHAIN_FILE=C:\Users\tahan\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake -G Ninja -S X:\YNOV\ProgMoteur\Game -B X:\YNOV\ProgMoteur\Game\cmake-build-debug-visual-studio
+-- Found SFML 2.6.1 in C:/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: X:/YNOV/ProgMoteur/Game/cmake-build-debug-visual-studio

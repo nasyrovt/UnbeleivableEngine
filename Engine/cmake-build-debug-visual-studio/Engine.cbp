@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Engine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Users\;CMake Files\Users\tahan\;CMake Files\Users\tahan\.vcpkg-clion\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\scripts\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\scripts\buildsystems\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\box2d\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\boost\;CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine">
+				<Option output="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio/Engine.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 Engine"/>
+					<CompileFile command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Engine/fast">
+				<Option output="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio/Engine.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 Engine/fast"/>
+					<CompileFile command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="X:/YNOV/ProgMoteur/Engine/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f X:\YNOV\ProgMoteur\Engine\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Base/ActorComponent.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Base/BaseComponent.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Base/SceneComponent.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Camera/CameraComponent.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Collision/BoxCollider.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Collision/Collider.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Collision/RigidBody.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Drawable/SpriteComponent.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Private/Scripting/LuaScript.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Base/ActorComponent.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Base/BaseComponent.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Base/SceneComponent.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Camera/CameraComponent.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Collision/BoxCollider.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Collision/Collider.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Collision/RigidBody.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Drawable/SpriteComponent.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Component/Public/Scripting/LuaScript.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Debug/Private/DrawHelper.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Debug/Public/DrawHelper.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/Game.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/GameplayStatics.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/Physics/Collision.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/Physics/CollisionListener.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/Physics/Physics.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Private/ResourceManager.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/Game.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/GameplayStatics.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/Physics/Collision.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/Physics/CollisionListener.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/Physics/ICollidable.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/Physics/Physics.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/GameFramework/Public/ResourceManager.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Private/GameObject/GameObject.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Private/Object.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Private/ObjectStore.cpp">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Public/GameObject/GameObject.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Public/ITickable.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Public/Object.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Source/Object/Public/ObjectStore.h">
+			<Option target="Engine"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/box2d/box2dConfig-debug.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\box2d\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/box2d/box2dConfig-release.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\box2d\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/box2d/box2dConfig.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\box2d\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/box2d/box2dConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\box2d\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/sfml/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\sfml\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\boost\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="X:/YNOV/ProgMoteur/Engine/Users/tahan/.vcpkg-clion/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\Users\tahan\.vcpkg-clion\vcpkg\installed\x64-windows\share\yaml-cpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
